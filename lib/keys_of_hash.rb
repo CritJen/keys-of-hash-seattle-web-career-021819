@@ -6,6 +6,7 @@ class Hash
         binding.pry
         if value == arguments
           arr << key
-        end
+        end 
+      end
   end
 end
