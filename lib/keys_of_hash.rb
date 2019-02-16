@@ -8,6 +8,6 @@ class Hash
           array1 << key
         end
       end
+      return array1
   end
-  return array1
 end
