@@ -1,13 +1,13 @@
 require 'pry'
 class Hash
   def keys_of(*arguments)
-    arr = []
+    array1 = []
       self.each do |key, value|
         binding.pry
         if value == arguments
-          arr << key
+          array1 << key
         end
       end
   end
-  return arr
+  return array1
 end
